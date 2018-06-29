@@ -1,0 +1,25 @@
+{
+  "name": "zxtc-cli",
+  "version": "1.0.0",
+  "description": "CIC智讯铁路标准开发平台前端脚手架",
+  "bin": {
+    "scion": "bin/zx-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuqing2018/zx-cli.git"
+  },
+  "keywords": [],
+  "author": "link",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "cli-table": "^0.3.1",
+    "commander": "^2.9.0",
+    "download-git-repo": "^1.0.0",
+    "handlebars": "^4.0.8",
+    "inquirer": "^3.0.6",
+    "metalsmith": "^2.3.0",
+    "ora": "^1.2.0"
+  }
+}
