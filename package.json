@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CIC智讯铁路标准开发平台前端脚手架",
   "bin": {
-    "scion": "bin/zx-cli"
+    "zx": "bin/zx-cli"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-![Scion Logo](./logo.png)
+![zx-cli Logo](./logo.png)
 
 # zx-cli
 CIC智讯铁路标准开发平台前端脚手架
@@ -17,9 +17,9 @@ npm link
 ```
 
 # Usage
-Open your terminal and type `scion` or `scion -h` , you'll see the help infomation below:
+Open your terminal and type `zx-cli` or `zx-cli -h` , you'll see the help infomation below:
 ```
-  Usage: scion <command>
+  Usage: zx-cli <command>
 
 
   Commands:
@@ -39,31 +39,31 @@ Open your terminal and type `scion` or `scion -h` , you'll see the help infomati
 
 # Commands
 ### add | a
-This command would help you to add a new template to the `templates.json`, which will be used by `Scion` to generate projects.
+This command would help you to add a new template to the `templates.json`, which will be used by `zx-cli` to generate projects.
 ```
-$ scion add
+$ zx-cli add
 
 ? Set the custom name of the template: my-first-template
-? Owner/name of the template: jrainlau/scion
+? Owner/name of the template: jrainlau/zx-cli
 ? Branch of the template: new
 ┌───────────────────┬────────────────┬────────┐
 │ Template Name     │ Owner/Name     │ Branch │
 ├───────────────────┼────────────────┼────────┤
-│ my-first-template │ jrainlau/scion │ new    │
+│ my-first-template │ jrainlau/zx-cli │ new    │
 └───────────────────┴────────────────┴────────┘
 ✔ New template has been added successfully!
 ```
-`Scion` use [download-git-repo](https://github.com/flipxfx/download-git-repo) to down load git repos. After answering 3 questions, you'll add a new template to `Scion`.
+`zx-cli` use [download-git-repo](https://github.com/flipxfx/download-git-repo) to down load git repos. After answering 3 questions, you'll add a new template to `zx-cli`.
 
 ### list | l
 It shows you the templates list.
 ```
-$ scion list
+$ zx-cli list
 
 ┌────────────────────┬────────────────┬────────┐
 │ Template Name      │ Owner/Name     │ Branch │
 ├────────────────────┼────────────────┼────────┤
-│ my-first-template  │ jrainlau/scion │ new    │
+│ my-first-template  │ jrainlau/zx-cli │ new    │
 ├────────────────────┼────────────────┼────────┤
 │ my-second-template │ jrainlau/motto │ master │
 └────────────────────┴────────────────┴────────┘
@@ -72,7 +72,7 @@ $ scion list
 ### init | i
 After adding new templates, you could use this command to generate your own project by choosing template.
 ```
-$ scion init
+$ zx-cli init
 
 ? Template name: my-first-template
 ? Project name: my-project
@@ -87,22 +87,22 @@ It's easy, right?
 ### delete | d
 To delete a template, you could use this command:
 ```
-$ scion delete
+$ zx-cli delete
 
 ? Which template you want to delete? my-second-template
 ┌───────────────────┬────────────────┬────────┐
 │ Template Name     │ Owner/Name     │ Branch │
 ├───────────────────┼────────────────┼────────┤
-│ my-first-template │ jrainlau/scion │ new    │
+│ my-first-template │ jrainlau/zx-cli │ new    │
 └───────────────────┴────────────────┴────────┘
 ✔ Template has been deleted successfully
 ```
 
 # Template
-The most important part of Scion is `template`. All templates' infomation were list in the `templates.json`.
+The most important part of zx-cli is `template`. All templates' infomation were list in the `templates.json`.
 A template means a project sample, which has a simple or complex file structure.
 
-You can create your own templates repository, and push your templates in different branches. All you need to do then is to add the templates into Scion's `templates.json`.
+You can create your own templates repository, and push your templates in different branches. All you need to do then is to add the templates into zx-cli's `templates.json`.
 
 # License
 MIT.
