@@ -1,6 +1,1 @@
-{
-  "tpl": {
-    "owner/name": "github:liuqing2018/work",
-    "branch": "master"
-  }
-}
+{"fe":{"owner/name":"http://219.141.179.240/platform/platform.git","branch":"feature_cli_0601"}}

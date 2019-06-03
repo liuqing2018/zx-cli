@@ -1,6 +1,6 @@
 {
   "name": "zxtc-cli",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "CIC智讯铁路标准开发平台前端脚手架",
   "bin": {
     "zx": "bin/zx-cli"

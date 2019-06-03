@@ -48,7 +48,7 @@ module.exports = prompt(question).then(({ name, project, place }) => {
   const spinner = ora('Downloading template...')
 
   spinner.start()
-  download(`direct:${gitPlace}#${gitBranch}`, 'test/tmp', { clone: true }, function (err) {
+  download(`direct:${gitPlace}#${gitBranch}`, `${place}/${project}`,{ clone: true }, function (err) {
     if (err) {
       console.log(chalk.red(err))
       process.exit()
@@ -56,17 +56,8 @@ module.exports = prompt(question).then(({ name, project, place }) => {
     spinner.stop()
     console.log(chalk.green('New project has been initialized successfully!'))
   });
+
   // download('direct:https://gitlab.com/flipxfx/download-git-repo-fixture.git#my-branch', 'test/tmp', { clone: true }, function (err) {
   //   console.log(err ? 'Error' : 'Success')
-  // });
-
-
-  // download(`${gitPlace}#${gitBranch}`, `${place}/${project}`, (err) => {
-  //   if (err) {
-  //     console.log(chalk.red(err))
-  //     process.exit()
-  //   }
-  //   spinner.stop()
-  //   console.log(chalk.green('New project has been initialized successfully!'))
   // })
 })

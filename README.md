@@ -7,14 +7,7 @@ CIC智讯铁路标准开发平台前端脚手架
 ```
 npm install zx-cli -g
 ```
-or
-```
-https://github.com/liuqing2018/zx-cli.git
 
-cd zx && npm install
-
-npm link
-```
 
 # Usage
 Open your terminal and type `zx-cli` or `zx-cli -h` , you'll see the help infomation below:
